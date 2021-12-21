@@ -1,0 +1,965 @@
+[
+    {
+        "label": "turtle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "turtle",
+        "description": "turtle",
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210686.71210686_1",
+        "description": "71210686.71210686_1",
+        "peekOfCode": "a = int(input(\"Masukkan sisi a : \"))\nb = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"masukkan sisi c : \"))\nprint()\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b or a == c or b == c:\n    if a == b:\n        print(\"Terdapat 2 sisi yang sama, yaitu a dan b!\")",
+        "detail": "71210686.71210686_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210686.71210686_1",
+        "description": "71210686.71210686_1",
+        "peekOfCode": "b = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"masukkan sisi c : \"))\nprint()\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b or a == c or b == c:\n    if a == b:\n        print(\"Terdapat 2 sisi yang sama, yaitu a dan b!\")\n    elif a == c:",
+        "detail": "71210686.71210686_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210686.71210686_1",
+        "description": "71210686.71210686_1",
+        "peekOfCode": "c = int(input(\"masukkan sisi c : \"))\nprint()\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b or a == c or b == c:\n    if a == b:\n        print(\"Terdapat 2 sisi yang sama, yaitu a dan b!\")\n    elif a == c:\n        print(\"Terdapat 2 sisi yang sama, yaitu a dan c!\")",
+        "detail": "71210686.71210686_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210686.71210686_2",
+        "description": "71210686.71210686_2",
+        "peekOfCode": "def cekPassword(pw):\n    if len(pw) < 6 or len(pw) > 15:\n        return \"Panjang password harus 6-15 karakter\"\n    elif len(pw) >= 6 and len(pw) <= 15:\n        kapital = 0\n        angka = 0\n        for i in pw:\n            if i.isupper():\n                kapital = kapital+1\n            if i.isdigit():",
+        "detail": "71210686.71210686_2",
+        "documentation": {}
+    },
+    {
+        "label": "kalimat",
+        "kind": 5,
+        "importPath": "71210686.71210686_2",
+        "description": "71210686.71210686_2",
+        "peekOfCode": "kalimat = \"Password harus mengandung minimal \"\nvalid = \"Password valid! Random Password: \"\ndef cekPassword(pw):\n    if len(pw) < 6 or len(pw) > 15:\n        return \"Panjang password harus 6-15 karakter\"\n    elif len(pw) >= 6 and len(pw) <= 15:\n        kapital = 0\n        angka = 0\n        for i in pw:\n            if i.isupper():",
+        "detail": "71210686.71210686_2",
+        "documentation": {}
+    },
+    {
+        "label": "valid",
+        "kind": 5,
+        "importPath": "71210686.71210686_2",
+        "description": "71210686.71210686_2",
+        "peekOfCode": "valid = \"Password valid! Random Password: \"\ndef cekPassword(pw):\n    if len(pw) < 6 or len(pw) > 15:\n        return \"Panjang password harus 6-15 karakter\"\n    elif len(pw) >= 6 and len(pw) <= 15:\n        kapital = 0\n        angka = 0\n        for i in pw:\n            if i.isupper():\n                kapital = kapital+1",
+        "detail": "71210686.71210686_2",
+        "documentation": {}
+    },
+    {
+        "label": "item",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "item = input(\n    \"Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma) : \")\nlist = item.split(\", \")\ntotbarang = len(list)\ndiskon = 0\ntot = 0\nfor i in range(totbarang):\n    harga = \"Berapa harga barang \"+list[i]+\"?:\"\n    barang = input(harga)\n    tot = tot+int(barang)",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "list = item.split(\", \")\ntotbarang = len(list)\ndiskon = 0\ntot = 0\nfor i in range(totbarang):\n    harga = \"Berapa harga barang \"+list[i]+\"?:\"\n    barang = input(harga)\n    tot = tot+int(barang)\n    if int(barang) < 100000:\n        print(\"Harga \"+list[i]+\"\\t Rp. \"+barang+\"\\t Diskon Rp. \", 0)",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "totbarang",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "totbarang = len(list)\ndiskon = 0\ntot = 0\nfor i in range(totbarang):\n    harga = \"Berapa harga barang \"+list[i]+\"?:\"\n    barang = input(harga)\n    tot = tot+int(barang)\n    if int(barang) < 100000:\n        print(\"Harga \"+list[i]+\"\\t Rp. \"+barang+\"\\t Diskon Rp. \", 0)\n    elif int(barang) >= 100000 and int(barang) < 250000:",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "diskon",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "diskon = 0\ntot = 0\nfor i in range(totbarang):\n    harga = \"Berapa harga barang \"+list[i]+\"?:\"\n    barang = input(harga)\n    tot = tot+int(barang)\n    if int(barang) < 100000:\n        print(\"Harga \"+list[i]+\"\\t Rp. \"+barang+\"\\t Diskon Rp. \", 0)\n    elif int(barang) >= 100000 and int(barang) < 250000:\n        potong = float(float(barang)*0.1)",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "tot = 0\nfor i in range(totbarang):\n    harga = \"Berapa harga barang \"+list[i]+\"?:\"\n    barang = input(harga)\n    tot = tot+int(barang)\n    if int(barang) < 100000:\n        print(\"Harga \"+list[i]+\"\\t Rp. \"+barang+\"\\t Diskon Rp. \", 0)\n    elif int(barang) >= 100000 and int(barang) < 250000:\n        potong = float(float(barang)*0.1)\n        diskon = diskon+potong",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "jumlah",
+        "kind": 5,
+        "importPath": "71210686.71210686_3",
+        "description": "71210686.71210686_3",
+        "peekOfCode": "jumlah = tot-diskon\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp. \", diskon)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp. \", jumlah)\nprint()",
+        "detail": "71210686.71210686_3",
+        "documentation": {}
+    },
+    {
+        "label": "cream",
+        "kind": 2,
+        "importPath": "71210686.71210686_4",
+        "description": "71210686.71210686_4",
+        "peekOfCode": "def cream():\n    pen.fillcolor(\"yellow\")\n    pen.begin_fill()\n    pen.circle(50, 180)\n    pen.end_fill()\ndef lilin():\n    pen.pensize(5)\n    pen.pencolor(\"red\")\n    pen.pendown()\n    pen.forward(75)",
+        "detail": "71210686.71210686_4",
+        "documentation": {}
+    },
+    {
+        "label": "lilin",
+        "kind": 2,
+        "importPath": "71210686.71210686_4",
+        "description": "71210686.71210686_4",
+        "peekOfCode": "def lilin():\n    pen.pensize(5)\n    pen.pencolor(\"red\")\n    pen.pendown()\n    pen.forward(75)\n    pen.penup()\n# cream\npen.pendown()\npen.right(90)\ncream()",
+        "detail": "71210686.71210686_4",
+        "documentation": {}
+    },
+    {
+        "label": "pen",
+        "kind": 5,
+        "importPath": "71210686.71210686_4",
+        "description": "71210686.71210686_4",
+        "peekOfCode": "pen = turtle.Turtle()\npen.pensize(2)\n# kotak\npen.penup()\npen.goto(-150, 75)\npen.pendown()\npen.fillcolor(\"orange\")\npen.begin_fill()\npen.forward(300)\npen.right(90)",
+        "detail": "71210686.71210686_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_1",
+        "description": "71210687.UAS.71210687_1",
+        "peekOfCode": "a = float(input(\"\\nMasukkan sisi a : \"))\nb = float(input(\"Masukkan sisi b : \"))\nc = float(input(\"Masukkan sisi c : \"))\nif a == b and b == c:\n    print(\"\\nTerdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c and a != b:\n    print(\"\\nTerdapat 2 sisi yang sama, yaitu a dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")\nelif a == b and a != c:",
+        "detail": "71210687.UAS.71210687_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_1",
+        "description": "71210687.UAS.71210687_1",
+        "peekOfCode": "b = float(input(\"Masukkan sisi b : \"))\nc = float(input(\"Masukkan sisi c : \"))\nif a == b and b == c:\n    print(\"\\nTerdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c and a != b:\n    print(\"\\nTerdapat 2 sisi yang sama, yaitu a dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")\nelif a == b and a != c:\n    print(\"\\nTerdapat 2 sisi yang sama, yaitu a dan b!\")",
+        "detail": "71210687.UAS.71210687_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_1",
+        "description": "71210687.UAS.71210687_1",
+        "peekOfCode": "c = float(input(\"Masukkan sisi c : \"))\nif a == b and b == c:\n    print(\"\\nTerdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c and a != b:\n    print(\"\\nTerdapat 2 sisi yang sama, yaitu a dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")\nelif a == b and a != c:\n    print(\"\\nTerdapat 2 sisi yang sama, yaitu a dan b!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")",
+        "detail": "71210687.UAS.71210687_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210687.UAS.71210687_2",
+        "description": "71210687.UAS.71210687_2",
+        "peekOfCode": "def cekPassword(Password):\n    print()\n    a = 0\n    b = 0\n    if len(Password) >= 6 and len(Password) <= 15:\n        c = str(a)\n        d = str(b)\n        for char in Password:\n            if char.isdigit():\n                a += 1",
+        "detail": "71210687.UAS.71210687_2",
+        "documentation": {}
+    },
+    {
+        "label": "barang",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "barang = input(\"Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma): \")\nkoma = barang.split(\", \")\nharga = len(koma)\nDiscount = 0\nSum = 0\nfor i in range(harga):\n    Price = \"Berapa harga barang \" + koma[i] + \" ?:\"\n    ItemPrice = input(Price)\n    Sum += int(ItemPrice)\n    if int(ItemPrice) >= 250000:",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "koma",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "koma = barang.split(\", \")\nharga = len(koma)\nDiscount = 0\nSum = 0\nfor i in range(harga):\n    Price = \"Berapa harga barang \" + koma[i] + \" ?:\"\n    ItemPrice = input(Price)\n    Sum += int(ItemPrice)\n    if int(ItemPrice) >= 250000:\n        Dsc = float(float(ItemPrice) * 0.25)",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "harga",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "harga = len(koma)\nDiscount = 0\nSum = 0\nfor i in range(harga):\n    Price = \"Berapa harga barang \" + koma[i] + \" ?:\"\n    ItemPrice = input(Price)\n    Sum += int(ItemPrice)\n    if int(ItemPrice) >= 250000:\n        Dsc = float(float(ItemPrice) * 0.25)\n        Discount += Dsc",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "Discount",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "Discount = 0\nSum = 0\nfor i in range(harga):\n    Price = \"Berapa harga barang \" + koma[i] + \" ?:\"\n    ItemPrice = input(Price)\n    Sum += int(ItemPrice)\n    if int(ItemPrice) >= 250000:\n        Dsc = float(float(ItemPrice) * 0.25)\n        Discount += Dsc\n        print(\"Harga {} \\t Rp.  {} \\t Diskon Rp.  {}\".format(koma[i], ItemPrice, Dsc))",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "Sum = 0\nfor i in range(harga):\n    Price = \"Berapa harga barang \" + koma[i] + \" ?:\"\n    ItemPrice = input(Price)\n    Sum += int(ItemPrice)\n    if int(ItemPrice) >= 250000:\n        Dsc = float(float(ItemPrice) * 0.25)\n        Discount += Dsc\n        print(\"Harga {} \\t Rp.  {} \\t Diskon Rp.  {}\".format(koma[i], ItemPrice, Dsc))\n    elif int(ItemPrice) < 100000:",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "Total",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_3",
+        "description": "71210687.UAS.71210687_3",
+        "peekOfCode": "Total = Sum - Discount\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp. \", Discount)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp. \", Total)",
+        "detail": "71210687.UAS.71210687_3",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_4",
+        "description": "71210687.UAS.71210687_4",
+        "peekOfCode": "a = turtle.Turtle()\nx = turtle.Screen()\nx.bgcolor(\"aqua\")\n# kotak\na = turtle.Turtle()\na.penup()\na.goto(-150, -100)\na.pendown()\na.pensize(2)\na.color(\"black\", \"orange\")",
+        "detail": "71210687.UAS.71210687_4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_4",
+        "description": "71210687.UAS.71210687_4",
+        "peekOfCode": "x = turtle.Screen()\nx.bgcolor(\"aqua\")\n# kotak\na = turtle.Turtle()\na.penup()\na.goto(-150, -100)\na.pendown()\na.pensize(2)\na.color(\"black\", \"orange\")\na.begin_fill()",
+        "detail": "71210687.UAS.71210687_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_4",
+        "description": "71210687.UAS.71210687_4",
+        "peekOfCode": "a = turtle.Turtle()\na.penup()\na.goto(-150, -100)\na.pendown()\na.pensize(2)\na.color(\"black\", \"orange\")\na.begin_fill()\na.forward(300)\na.left(90)\na.forward(125)",
+        "detail": "71210687.UAS.71210687_4",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 5,
+        "importPath": "71210687.UAS.71210687_4",
+        "description": "71210687.UAS.71210687_4",
+        "peekOfCode": "Circle = 3\na.color(\"black\", \"yellow\")\na.begin_fill()\na.circle(50, 180)\nwhile Circle >= 2:\n    a.left(180)\n    a.circle(50, 180)\n    Circle = Circle - 1\na.end_fill()\n# lilin",
+        "detail": "71210687.UAS.71210687_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210689.71210689_1",
+        "description": "71210689.71210689_1",
+        "peekOfCode": "a = int(input(\"Masukkan sisi a: \"))\nb = int(input(\"Masukkan sisi b: \"))\nc = int(input(\"Masukkan sisi c: \"))\nif a < 0 or b < 0 or c < 0:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a != b and b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")",
+        "detail": "71210689.71210689_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210689.71210689_1",
+        "description": "71210689.71210689_1",
+        "peekOfCode": "b = int(input(\"Masukkan sisi b: \"))\nc = int(input(\"Masukkan sisi c: \"))\nif a < 0 or b < 0 or c < 0:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a != b and b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki\")",
+        "detail": "71210689.71210689_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210689.71210689_1",
+        "description": "71210689.71210689_1",
+        "peekOfCode": "c = int(input(\"Masukkan sisi c: \"))\nif a < 0 or b < 0 or c < 0:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a != b and b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki\")\nelif a == b and b != c:",
+        "detail": "71210689.71210689_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210689.71210689_2",
+        "description": "71210689.71210689_2",
+        "peekOfCode": "def cekPassword(x):\n    kap = 0\n    for i in list(x):\n        if i.isupper():\n            kap += 1\n        else:\n            kap += 0\n    angka = 0\n    aa = \"1234567890\"\n    a = list(aa)",
+        "detail": "71210689.71210689_2",
+        "documentation": {}
+    },
+    {
+        "label": "aa",
+        "kind": 5,
+        "importPath": "71210689.71210689_3",
+        "description": "71210689.71210689_3",
+        "peekOfCode": "aa = input(\"Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma): \")\na = aa.split(\",\")\nc = 0\nb = 0\nfor i in a:\n    harga = int(input(\"Berapa harga barang \" + i + \"?: \"))\n    if harga >= 100000 and harga < 250000:\n        diskon = 10 / 100 * harga\n    elif harga >= 250000:\n        diskon = 25 / 100 * harga",
+        "detail": "71210689.71210689_3",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210689.71210689_3",
+        "description": "71210689.71210689_3",
+        "peekOfCode": "a = aa.split(\",\")\nc = 0\nb = 0\nfor i in a:\n    harga = int(input(\"Berapa harga barang \" + i + \"?: \"))\n    if harga >= 100000 and harga < 250000:\n        diskon = 10 / 100 * harga\n    elif harga >= 250000:\n        diskon = 25 / 100 * harga\n    else:",
+        "detail": "71210689.71210689_3",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210689.71210689_3",
+        "description": "71210689.71210689_3",
+        "peekOfCode": "c = 0\nb = 0\nfor i in a:\n    harga = int(input(\"Berapa harga barang \" + i + \"?: \"))\n    if harga >= 100000 and harga < 250000:\n        diskon = 10 / 100 * harga\n    elif harga >= 250000:\n        diskon = 25 / 100 * harga\n    else:\n        diskon = 0",
+        "detail": "71210689.71210689_3",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210689.71210689_3",
+        "description": "71210689.71210689_3",
+        "peekOfCode": "b = 0\nfor i in a:\n    harga = int(input(\"Berapa harga barang \" + i + \"?: \"))\n    if harga >= 100000 and harga < 250000:\n        diskon = 10 / 100 * harga\n    elif harga >= 250000:\n        diskon = 25 / 100 * harga\n    else:\n        diskon = 0\n    print(\"Harga \" + i + \" \" + \" Rp. \" + str(harga) + \" diskon Rp. \" + str(diskon))",
+        "detail": "71210689.71210689_3",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210689.71210689_4",
+        "description": "71210689.71210689_4",
+        "peekOfCode": "s = turtle.Screen()\nb = 4\nt = turtle.Turtle()\nturtle.bgcolor(\"cyan\")\n# kotak\nt.penup()\nt.goto(-30 * b, -20 * b)\nt.pendown()\nt.fillcolor(\"orange\")\nt.begin_fill()",
+        "detail": "71210689.71210689_4",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210689.71210689_4",
+        "description": "71210689.71210689_4",
+        "peekOfCode": "b = 4\nt = turtle.Turtle()\nturtle.bgcolor(\"cyan\")\n# kotak\nt.penup()\nt.goto(-30 * b, -20 * b)\nt.pendown()\nt.fillcolor(\"orange\")\nt.begin_fill()\nt.forward(60 * b)",
+        "detail": "71210689.71210689_4",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "71210689.71210689_4",
+        "description": "71210689.71210689_4",
+        "peekOfCode": "t = turtle.Turtle()\nturtle.bgcolor(\"cyan\")\n# kotak\nt.penup()\nt.goto(-30 * b, -20 * b)\nt.pendown()\nt.fillcolor(\"orange\")\nt.begin_fill()\nt.forward(60 * b)\nt.right(90)",
+        "detail": "71210689.71210689_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_1",
+        "description": "71210690.71210690.71210690_1",
+        "peekOfCode": "a = int(input(\"Masukkan sisi a : \"))\nb = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"Masukkan sisi c : \"))\nif (a == b) and (b == c):\n    print(\"\")\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif (a < 1) and (b < 1) and (c < 1):\n    print(\"Invalid input!\")\nelif (a != b) and (a != c) and (b != a) and (b != c) and (c != a) and (c != b):",
+        "detail": "71210690.71210690.71210690_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_1",
+        "description": "71210690.71210690.71210690_1",
+        "peekOfCode": "b = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"Masukkan sisi c : \"))\nif (a == b) and (b == c):\n    print(\"\")\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif (a < 1) and (b < 1) and (c < 1):\n    print(\"Invalid input!\")\nelif (a != b) and (a != c) and (b != a) and (b != c) and (c != a) and (c != b):\n    print(\"\")",
+        "detail": "71210690.71210690.71210690_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_1",
+        "description": "71210690.71210690.71210690_1",
+        "peekOfCode": "c = int(input(\"Masukkan sisi c : \"))\nif (a == b) and (b == c):\n    print(\"\")\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif (a < 1) and (b < 1) and (c < 1):\n    print(\"Invalid input!\")\nelif (a != b) and (a != c) and (b != a) and (b != c) and (c != a) and (c != b):\n    print(\"\")\n    print(\"Tidak terdapat sisi yang sama!\")",
+        "detail": "71210690.71210690.71210690_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210690.71210690.71210690_2",
+        "description": "71210690.71210690.71210690_2",
+        "peekOfCode": "def cekPassword(pwd):\n    print(\"\")\n    HurufBesar = 0\n    Angka = 0\n    if len(pwd) <= 15 and len(pwd) >= 6:\n        for char in pwd:\n            if char.isupper():\n                HurufBesar += 1\n            if char.isdigit():\n                Angka += 1",
+        "detail": "71210690.71210690.71210690_2",
+        "documentation": {}
+    },
+    {
+        "label": "barangyangdibeli",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "barangyangdibeli = input(\n    \"Masukkan barang apa saja yang ingin dibeli(pisahkan dengan koma): \"\n)\nlist = barangyangdibeli.split(\",\")\nbanyakbarang = len(list)\njmlh = 0\ntotaldis = 0\nfor x in range(banyakbarang):\n    harga = \"Berapa harga barang \" + list[x] + \" ?:\"\n    barangyangdibeli = input(harga)",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "list = barangyangdibeli.split(\",\")\nbanyakbarang = len(list)\njmlh = 0\ntotaldis = 0\nfor x in range(banyakbarang):\n    harga = \"Berapa harga barang \" + list[x] + \" ?:\"\n    barangyangdibeli = input(harga)\n    jmlh += int(barangyangdibeli)\n    if int(barangyangdibeli) >= 250000:\n        dis = float(float(barangyangdibeli) * 0.25)",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "banyakbarang",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "banyakbarang = len(list)\njmlh = 0\ntotaldis = 0\nfor x in range(banyakbarang):\n    harga = \"Berapa harga barang \" + list[x] + \" ?:\"\n    barangyangdibeli = input(harga)\n    jmlh += int(barangyangdibeli)\n    if int(barangyangdibeli) >= 250000:\n        dis = float(float(barangyangdibeli) * 0.25)\n        totaldis += dis",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "jmlh",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "jmlh = 0\ntotaldis = 0\nfor x in range(banyakbarang):\n    harga = \"Berapa harga barang \" + list[x] + \" ?:\"\n    barangyangdibeli = input(harga)\n    jmlh += int(barangyangdibeli)\n    if int(barangyangdibeli) >= 250000:\n        dis = float(float(barangyangdibeli) * 0.25)\n        totaldis += dis\n        print(",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "totaldis",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "totaldis = 0\nfor x in range(banyakbarang):\n    harga = \"Berapa harga barang \" + list[x] + \" ?:\"\n    barangyangdibeli = input(harga)\n    jmlh += int(barangyangdibeli)\n    if int(barangyangdibeli) >= 250000:\n        dis = float(float(barangyangdibeli) * 0.25)\n        totaldis += dis\n        print(\n            (\"Harga {}\\t Rp. {}\\t Diskon Rp. {}\").format(list[x], barangyangdibeli, dis)",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "jumlahtotal",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_3",
+        "description": "71210690.71210690.71210690_3",
+        "peekOfCode": "jumlahtotal = jmlh - totaldis\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp. \", totaldis)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp. \", jumlahtotal)",
+        "detail": "71210690.71210690.71210690_3",
+        "documentation": {}
+    },
+    {
+        "label": "krim",
+        "kind": 2,
+        "importPath": "71210690.71210690.71210690_4",
+        "description": "71210690.71210690.71210690_4",
+        "peekOfCode": "def krim():\n    t.fillcolor(\"yellow\")\n    t.begin_fill()\n    t.circle(36, 180)\n    t.end_fill()\nkrim()\nt.right(180)\nkrim()\nt.right(180)\nkrim()",
+        "detail": "71210690.71210690.71210690_4",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "71210690.71210690.71210690_4",
+        "description": "71210690.71210690.71210690_4",
+        "peekOfCode": "t = turtle.Turtle()\nturtle.bgcolor(\"cyan\")\nt.pensize(3)\n# gambarkue\nt.penup()\nt.goto(-110, 50)\nt.pendown()\nt.fillcolor(\"orange\")\nt.begin_fill()\nt.forward(215)",
+        "detail": "71210690.71210690.71210690_4",
+        "documentation": {}
+    },
+    {
+        "label": "lilin",
+        "kind": 2,
+        "importPath": "71210691.71210691.71210691_4",
+        "description": "71210691.71210691.71210691_4",
+        "peekOfCode": "def lilin(x, y):\n    t.color(\"red\")\n    t.penup()\n    t.goto(x, y)\n    t.pendown()\n    t.begin_fill()\n    for i in range(2):\n        t.forward(6)\n        t.left(90)\n        t.forward(80)",
+        "detail": "71210691.71210691.71210691_4",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210691.71210691.71210691_4",
+        "description": "71210691.71210691.71210691_4",
+        "peekOfCode": "s = turtle.Screen()\ns.bgcolor(\"skyblue\")\nt = turtle.Turtle()\nfor i in range(2):\n    t.forward(150)\n    t.left(90)\n    t.forward(80)\n    t.left(90)\n# lilin\ndef lilin(x, y):",
+        "detail": "71210691.71210691.71210691_4",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "71210691.71210691.71210691_4",
+        "description": "71210691.71210691.71210691_4",
+        "peekOfCode": "t = turtle.Turtle()\nfor i in range(2):\n    t.forward(150)\n    t.left(90)\n    t.forward(80)\n    t.left(90)\n# lilin\ndef lilin(x, y):\n    t.color(\"red\")\n    t.penup()",
+        "detail": "71210691.71210691.71210691_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_1",
+        "description": "71210692.71210692.71210692_1",
+        "peekOfCode": "a = input(\"Masukkan sisi a : \")\nb = input(\"Masukkan sisi b : \")\nc = input(\"Masukkan sisi c : \")\nprint(\"\\n\")\nif a or b or c < 0:\n    print(\"Invalid input!\")\nelse:\n    if a == b == c:\n        print(\"Terdapat 3 sisi yang sama!\")\n        print(\"Segitiga tersebut merupakan segitiga sama sisi.\")",
+        "detail": "71210692.71210692.71210692_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_1",
+        "description": "71210692.71210692.71210692_1",
+        "peekOfCode": "b = input(\"Masukkan sisi b : \")\nc = input(\"Masukkan sisi c : \")\nprint(\"\\n\")\nif a or b or c < 0:\n    print(\"Invalid input!\")\nelse:\n    if a == b == c:\n        print(\"Terdapat 3 sisi yang sama!\")\n        print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\n    elif a == b != c:",
+        "detail": "71210692.71210692.71210692_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_1",
+        "description": "71210692.71210692.71210692_1",
+        "peekOfCode": "c = input(\"Masukkan sisi c : \")\nprint(\"\\n\")\nif a or b or c < 0:\n    print(\"Invalid input!\")\nelse:\n    if a == b == c:\n        print(\"Terdapat 3 sisi yang sama!\")\n        print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\n    elif a == b != c:\n        print(\"terdapat 2 sisi yang sama, yaitu a dan b!\")",
+        "detail": "71210692.71210692.71210692_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210692.71210692.71210692_2",
+        "description": "71210692.71210692.71210692_2",
+        "peekOfCode": "def cekPassword(pas):\n    kapital = 0\n    angka = 0\n    if len(pas) >= 6 and len(pas) <= 15:\n        for i in pas:\n            if i.isupper():\n                kapital += 1\n        for j in pas:\n            if j.isdigit():\n                angka += 1",
+        "detail": "71210692.71210692.71210692_2",
+        "documentation": {}
+    },
+    {
+        "label": "barang",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "barang = list(\n    input(\"Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma) : \").split(\n        \",\"\n    )\n)\nprint(len(barang))\nht = []\ndt = []\nur = 0\nfor i in barang:",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "ht",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "ht = []\ndt = []\nur = 0\nfor i in barang:\n    print(\"Berapa harga barang\", barang[ur], \"?\", end=\"\")\n    harga = int(input(\" \"))\n    if int(harga) >= 250000:\n        diskon = harga * (25 / 100)\n    elif int(harga) >= 100000:\n        diskon = harga * (10 / 100)",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "dt = []\nur = 0\nfor i in barang:\n    print(\"Berapa harga barang\", barang[ur], \"?\", end=\"\")\n    harga = int(input(\" \"))\n    if int(harga) >= 250000:\n        diskon = harga * (25 / 100)\n    elif int(harga) >= 100000:\n        diskon = harga * (10 / 100)\n    else:",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "ur",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "ur = 0\nfor i in barang:\n    print(\"Berapa harga barang\", barang[ur], \"?\", end=\"\")\n    harga = int(input(\" \"))\n    if int(harga) >= 250000:\n        diskon = harga * (25 / 100)\n    elif int(harga) >= 100000:\n        diskon = harga * (10 / 100)\n    else:\n        diskon = 0",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "da",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "da = sum(dt)\nakhir = sum(ht) - da\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp.\", da)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp.\", akhir)",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "akhir",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_3",
+        "description": "71210692.71210692.71210692_3",
+        "peekOfCode": "akhir = sum(ht) - da\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp.\", da)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp.\", akhir)",
+        "detail": "71210692.71210692.71210692_3",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_4",
+        "description": "71210692.71210692.71210692_4",
+        "peekOfCode": "s = turtle.Screen()\nt = turtle.Turtle()\ns.bgcolor(\"cyan\")\nt.speed(0)\nt.hideturtle()\n# base\nt.fillcolor(\"orange\")\nt.begin_fill()\nt.seth(180)\nt.forward(45)",
+        "detail": "71210692.71210692.71210692_4",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_4",
+        "description": "71210692.71210692.71210692_4",
+        "peekOfCode": "t = turtle.Turtle()\ns.bgcolor(\"cyan\")\nt.speed(0)\nt.hideturtle()\n# base\nt.fillcolor(\"orange\")\nt.begin_fill()\nt.seth(180)\nt.forward(45)\nt.right(90)",
+        "detail": "71210692.71210692.71210692_4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "71210692.71210692.71210692_4",
+        "description": "71210692.71210692.71210692_4",
+        "peekOfCode": "x = -45\nfor i in range(3):\n    t.goto(x, 45)\n    t.seth(270)\n    t.begin_fill()\n    t.circle(15, 180)\n    t.end_fill()\n    x += 30\nt.up()\n# lilin",
+        "detail": "71210692.71210692.71210692_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210693.71210693_1",
+        "description": "71210693.71210693_1",
+        "peekOfCode": "a = int(input(\"Masukkan sisi a : \"))\nb = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"Masukkan sisi c : \"))\nprint()\nif a < 1 or b < 1 or c < 1:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b and a != c:",
+        "detail": "71210693.71210693_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210693.71210693_1",
+        "description": "71210693.71210693_1",
+        "peekOfCode": "b = int(input(\"Masukkan sisi b : \"))\nc = int(input(\"Masukkan sisi c : \"))\nprint()\nif a < 1 or b < 1 or c < 1:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b and a != c:\n    print(\"Terdapat 2 sisi yang sama, yaitu a dan b!\")",
+        "detail": "71210693.71210693_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210693.71210693_1",
+        "description": "71210693.71210693_1",
+        "peekOfCode": "c = int(input(\"Masukkan sisi c : \"))\nprint()\nif a < 1 or b < 1 or c < 1:\n    print(\"Invalid input!\")\nelif a == b and b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == b and a != c:\n    print(\"Terdapat 2 sisi yang sama, yaitu a dan b!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")",
+        "detail": "71210693.71210693_1",
+        "documentation": {}
+    },
+    {
+        "label": "cekPassword",
+        "kind": 2,
+        "importPath": "71210693.71210693_2",
+        "description": "71210693.71210693_2",
+        "peekOfCode": "def cekPassword(pw):\n    print()\n    banyak_angka = sum(1 for c in pw if c.isdigit())\n    banyak_kapital = sum(1 for c in pw if c.isupper())\n    if len(pw) < 6 or len(pw) > 15:\n        return \"Panjang password harus 6-15 karakter\"\n    elif banyak_kapital < 1 and banyak_angka < 1:\n        return \"Password harus mengandung minimal 1 digit angka dan 1 huruf kapital\"\n    elif banyak_kapital < 1:\n        return \"Password harus mengandung minimal 1 huruf kapital\"",
+        "detail": "71210693.71210693_2",
+        "documentation": {}
+    },
+    {
+        "label": "barang",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "barang = input(\"Masukkan barang apa saja yang ingin dibeli(pisahkan dengan koma): \")\nsplitbarang = barang.split(\",\")\ntotal_barang = len(splitbarang)\ntotal_diskon = 0\njumlah_harga = 0\nfor b in range(total_barang):\n    harga = int(input(\"Berapa harga barang \" + splitbarang[b] + \" ?:\"))\n    jumlah_harga += harga\n    if harga >= 100000 and harga < 250000:\n        diskon = harga * 0.10",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "splitbarang",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "splitbarang = barang.split(\",\")\ntotal_barang = len(splitbarang)\ntotal_diskon = 0\njumlah_harga = 0\nfor b in range(total_barang):\n    harga = int(input(\"Berapa harga barang \" + splitbarang[b] + \" ?:\"))\n    jumlah_harga += harga\n    if harga >= 100000 and harga < 250000:\n        diskon = harga * 0.10\n        total_diskon += diskon",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_barang",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "total_barang = len(splitbarang)\ntotal_diskon = 0\njumlah_harga = 0\nfor b in range(total_barang):\n    harga = int(input(\"Berapa harga barang \" + splitbarang[b] + \" ?:\"))\n    jumlah_harga += harga\n    if harga >= 100000 and harga < 250000:\n        diskon = harga * 0.10\n        total_diskon += diskon\n        print(\"Harga\", splitbarang[b], \"\\t Rp.\", harga, \"\\t\", \"Diskon Rp.\", diskon)",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_diskon",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "total_diskon = 0\njumlah_harga = 0\nfor b in range(total_barang):\n    harga = int(input(\"Berapa harga barang \" + splitbarang[b] + \" ?:\"))\n    jumlah_harga += harga\n    if harga >= 100000 and harga < 250000:\n        diskon = harga * 0.10\n        total_diskon += diskon\n        print(\"Harga\", splitbarang[b], \"\\t Rp.\", harga, \"\\t\", \"Diskon Rp.\", diskon)\n    elif harga >= 250000:",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "jumlah_harga",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "jumlah_harga = 0\nfor b in range(total_barang):\n    harga = int(input(\"Berapa harga barang \" + splitbarang[b] + \" ?:\"))\n    jumlah_harga += harga\n    if harga >= 100000 and harga < 250000:\n        diskon = harga * 0.10\n        total_diskon += diskon\n        print(\"Harga\", splitbarang[b], \"\\t Rp.\", harga, \"\\t\", \"Diskon Rp.\", diskon)\n    elif harga >= 250000:\n        diskon = harga * 0.25",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "total_uang",
+        "kind": 5,
+        "importPath": "71210693.71210693_3",
+        "description": "71210693.71210693_3",
+        "peekOfCode": "total_uang = jumlah_harga - total_diskon\nprint(\"Total diskon yang anda dapatkan adalah sebesar: Rp.\", total_diskon)\nprint(\"Total uang yang harus anda bayarkan adalah: Rp.\", total_uang)",
+        "detail": "71210693.71210693_3",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210693.71210693_4",
+        "description": "71210693.71210693_4",
+        "peekOfCode": "s = turtle.Screen()\ns.bgcolor(\"cyan\")\nb = turtle.Turtle()\nb.color(\"black\", \"orange\")\nb.begin_fill()\nb.penup()\nb.goto(-100, 0)\nb.pendown()\nfor a in range(3):\n    b.forward(180)",
+        "detail": "71210693.71210693_4",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210693.71210693_4",
+        "description": "71210693.71210693_4",
+        "peekOfCode": "b = turtle.Turtle()\nb.color(\"black\", \"orange\")\nb.begin_fill()\nb.penup()\nb.goto(-100, 0)\nb.pendown()\nfor a in range(3):\n    b.forward(180)\n    b.left(90)\n    b.forward(90)",
+        "detail": "71210693.71210693_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_1",
+        "description": "71210695.71210695.71210695_1",
+        "peekOfCode": "a = int(input(\"Masukan sisi a  : \"))\nb = int(input(\"Masukan sisi b  : \"))\nc = int(input(\"Masukan sisi c  : \"))\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi\")\nelif a != b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki\")\nelse:",
+        "detail": "71210695.71210695.71210695_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_1",
+        "description": "71210695.71210695.71210695_1",
+        "peekOfCode": "b = int(input(\"Masukan sisi b  : \"))\nc = int(input(\"Masukan sisi c  : \"))\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi\")\nelif a != b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki\")\nelse:\n    print(\"Tidak terdapat sisi yang sama!\")",
+        "detail": "71210695.71210695.71210695_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_1",
+        "description": "71210695.71210695.71210695_1",
+        "peekOfCode": "c = int(input(\"Masukan sisi c  : \"))\nif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi\")\nelif a != b == c:\n    print(\"Terdapat 2 sisi yang sama, yaitu b dan c!\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki\")\nelse:\n    print(\"Tidak terdapat sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sembarang\")",
+        "detail": "71210695.71210695.71210695_1",
+        "documentation": {}
+    },
+    {
+        "label": "nama_barang1",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_2",
+        "description": "71210695.71210695.71210695_2",
+        "peekOfCode": "nama_barang1 = str(input(\"Nama barang 1: \"))\nharga_barang1 = int(input(\"harga barang 1: Rp \"))\nnama_barang2 = str(input(\"Nama barang 2: \"))\nharga_barang2 = int(input(\"harga barang 2: Rp \"))\n# jumlah yang harus dibayar adalah berapa total belanjaannya\n# tapi kalau dapat diskon akan berkurang\ntotal_harga = harga_barang1 + harga_barang2\n# jika dia belanja di atas 100rb maka berikan bonus dan diskon\nif total_harga >= 250000:\n    diskon = (total_harga) * (25 / 100)",
+        "detail": "71210695.71210695.71210695_2",
+        "documentation": {}
+    },
+    {
+        "label": "harga_barang1",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_2",
+        "description": "71210695.71210695.71210695_2",
+        "peekOfCode": "harga_barang1 = int(input(\"harga barang 1: Rp \"))\nnama_barang2 = str(input(\"Nama barang 2: \"))\nharga_barang2 = int(input(\"harga barang 2: Rp \"))\n# jumlah yang harus dibayar adalah berapa total belanjaannya\n# tapi kalau dapat diskon akan berkurang\ntotal_harga = harga_barang1 + harga_barang2\n# jika dia belanja di atas 100rb maka berikan bonus dan diskon\nif total_harga >= 250000:\n    diskon = (total_harga) * (25 / 100)\n    bayar = total_harga - diskon",
+        "detail": "71210695.71210695.71210695_2",
+        "documentation": {}
+    },
+    {
+        "label": "nama_barang2",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_2",
+        "description": "71210695.71210695.71210695_2",
+        "peekOfCode": "nama_barang2 = str(input(\"Nama barang 2: \"))\nharga_barang2 = int(input(\"harga barang 2: Rp \"))\n# jumlah yang harus dibayar adalah berapa total belanjaannya\n# tapi kalau dapat diskon akan berkurang\ntotal_harga = harga_barang1 + harga_barang2\n# jika dia belanja di atas 100rb maka berikan bonus dan diskon\nif total_harga >= 250000:\n    diskon = (total_harga) * (25 / 100)\n    bayar = total_harga - diskon\n    print(\"Berapa harga barang 1 Rp. \", total_harga)",
+        "detail": "71210695.71210695.71210695_2",
+        "documentation": {}
+    },
+    {
+        "label": "harga_barang2",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_2",
+        "description": "71210695.71210695.71210695_2",
+        "peekOfCode": "harga_barang2 = int(input(\"harga barang 2: Rp \"))\n# jumlah yang harus dibayar adalah berapa total belanjaannya\n# tapi kalau dapat diskon akan berkurang\ntotal_harga = harga_barang1 + harga_barang2\n# jika dia belanja di atas 100rb maka berikan bonus dan diskon\nif total_harga >= 250000:\n    diskon = (total_harga) * (25 / 100)\n    bayar = total_harga - diskon\n    print(\"Berapa harga barang 1 Rp. \", total_harga)\n    print(\"Total diskon Rp. \", diskon)",
+        "detail": "71210695.71210695.71210695_2",
+        "documentation": {}
+    },
+    {
+        "label": "total_harga",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_2",
+        "description": "71210695.71210695.71210695_2",
+        "peekOfCode": "total_harga = harga_barang1 + harga_barang2\n# jika dia belanja di atas 100rb maka berikan bonus dan diskon\nif total_harga >= 250000:\n    diskon = (total_harga) * (25 / 100)\n    bayar = total_harga - diskon\n    print(\"Berapa harga barang 1 Rp. \", total_harga)\n    print(\"Total diskon Rp. \", diskon)\nelif total_harga >= 100000:\n    diskon = (total_harga) * (10 / 100)\n    bayar = total_harga - diskon",
+        "detail": "71210695.71210695.71210695_2",
+        "documentation": {}
+    },
+    {
+        "label": "lilin",
+        "kind": 2,
+        "importPath": "71210695.71210695.71210695_4",
+        "description": "71210695.71210695.71210695_4",
+        "peekOfCode": "def lilin(x, y):\n    t.color(\"red\")\n    t.penup()\n    t.goto(x, y)\n    t.pendown()\n    t.begin_fill()\n    for i in range(2):\n        t.forward(49)\n        t.left(90)\n        t.forward(4)",
+        "detail": "71210695.71210695.71210695_4",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_4",
+        "description": "71210695.71210695.71210695_4",
+        "peekOfCode": "t = turtle.Turtle()\ns = turtle.Screen()\ns.bgcolor(\"cyan\")\nt.penup()\nt.goto(-150, -100)\nt.pendown()\nt.pensize(2)\nt.color(\"black\", \"orange\")\nt.begin_fill()\n# Kotak Kue",
+        "detail": "71210695.71210695.71210695_4",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210695.71210695.71210695_4",
+        "description": "71210695.71210695.71210695_4",
+        "peekOfCode": "s = turtle.Screen()\ns.bgcolor(\"cyan\")\nt.penup()\nt.goto(-150, -100)\nt.pendown()\nt.pensize(2)\nt.color(\"black\", \"orange\")\nt.begin_fill()\n# Kotak Kue\nfor i in range(3):",
+        "detail": "71210695.71210695.71210695_4",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_1",
+        "description": "71210697.71210697.71210697_1",
+        "peekOfCode": "a = int(input(\"Masukan sisi a :\"))\nb = int(input(\"Masukan sisi b :\"))\nc = int(input(\"Masukan sisi c :\"))\n# hitung\nif a == b == c < 0:\n    print(\"INVALID INPUT\")\nelif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c < 0:",
+        "detail": "71210697.71210697.71210697_1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_1",
+        "description": "71210697.71210697.71210697_1",
+        "peekOfCode": "b = int(input(\"Masukan sisi b :\"))\nc = int(input(\"Masukan sisi c :\"))\n# hitung\nif a == b == c < 0:\n    print(\"INVALID INPUT\")\nelif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c < 0:\n    print(\"Terdapat 2 sisi yang sama!\", \",yaitu a dan c\")",
+        "detail": "71210697.71210697.71210697_1",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_1",
+        "description": "71210697.71210697.71210697_1",
+        "peekOfCode": "c = int(input(\"Masukan sisi c :\"))\n# hitung\nif a == b == c < 0:\n    print(\"INVALID INPUT\")\nelif a == b == c:\n    print(\"Terdapat 3 sisi yang sama!\")\n    print(\"Segitiga tersebut merupakan segitiga sama sisi.\")\nelif a == c < 0:\n    print(\"Terdapat 2 sisi yang sama!\", \",yaitu a dan c\")\n    print(\"Segitiga tersebut merupakan segitiga sama kaki.\")",
+        "detail": "71210697.71210697.71210697_1",
+        "documentation": {}
+    },
+    {
+        "label": "password_check",
+        "kind": 2,
+        "importPath": "71210697.71210697.71210697_2",
+        "description": "71210697.71210697.71210697_2",
+        "peekOfCode": "def password_check(passwd):\n    SpecialSym = [\"$\", \"@\", \"#\", \"%\"]\n    val = True\n    if len(passwd) < 6:\n        print(\"length should be at least 6\")\n        val = False\n    if len(passwd) > 15:\n        print(\"length should be not be greater than 8\")\n        val = False\n    if not any(char.isdigit() for char in passwd):",
+        "detail": "71210697.71210697.71210697_2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "71210697.71210697.71210697_2",
+        "description": "71210697.71210697.71210697_2",
+        "peekOfCode": "def main():\n    passwd = \"CafeOutDOOR7890@\"\n    if password_check(passwd):\n        print(\"Password is valid\")\n    else:\n        print(\"Invalid Password !!\")\n# Driver Code\nif __name__ == \"__main__\":\n    main()",
+        "detail": "71210697.71210697.71210697_2",
+        "documentation": {}
+    },
+    {
+        "label": "barang",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_3",
+        "description": "71210697.71210697.71210697_3",
+        "peekOfCode": "barang = (int, input(\"Masukan barang apa saja yang ingin dibeli (pisahkan dengan koma) :\"))\nbarang1 =(int(input(\"Berapa harga barang H&M ? :\")))\nx = barang1*25//100\nx1 = barang1-x\nprint(\"Harga H&M         Rp.\",barang1,\"Diskon Rp.\",x)\nbarang2= (int(input(\"Berapa harga barang Nike X Dior ? :\")))\ny=barang2*25//100\ny1=barang2-y\nprint(\"Harga Nike X Dior     Rp.\",barang2,   \"Diskon Rp.\",    y)\nbarang3=int(input(\"Berapa harga Gucci Horsebit ? :\"))",
+        "detail": "71210697.71210697.71210697_3",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_3",
+        "description": "71210697.71210697.71210697_3",
+        "peekOfCode": "x = barang1*25//100\nx1 = barang1-x\nprint(\"Harga H&M         Rp.\",barang1,\"Diskon Rp.\",x)\nbarang2= (int(input(\"Berapa harga barang Nike X Dior ? :\")))\ny=barang2*25//100\ny1=barang2-y\nprint(\"Harga Nike X Dior     Rp.\",barang2,   \"Diskon Rp.\",    y)\nbarang3=int(input(\"Berapa harga Gucci Horsebit ? :\"))\nz=barang3*10//100\nz1=barang3-z",
+        "detail": "71210697.71210697.71210697_3",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_3",
+        "description": "71210697.71210697.71210697_3",
+        "peekOfCode": "x1 = barang1-x\nprint(\"Harga H&M         Rp.\",barang1,\"Diskon Rp.\",x)\nbarang2= (int(input(\"Berapa harga barang Nike X Dior ? :\")))\ny=barang2*25//100\ny1=barang2-y\nprint(\"Harga Nike X Dior     Rp.\",barang2,   \"Diskon Rp.\",    y)\nbarang3=int(input(\"Berapa harga Gucci Horsebit ? :\"))\nz=barang3*10//100\nz1=barang3-z\nprint(\"Harga Gucci Horsebit    Rp.\",barang3,    \"Diskon Rp.\",    z)",
+        "detail": "71210697.71210697.71210697_3",
+        "documentation": {}
+    },
+    {
+        "label": "barang4",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_3",
+        "description": "71210697.71210697.71210697_3",
+        "peekOfCode": "barang4 = int(input(\"Berapa harga barang besace tplyo ? :\"))\nprint(\"Harga barang besace tokyo Rp. \", barang4,   \"Diskon 0\"    )\nbarang5=int(input(\"Berapa harga barang royal kludge ?:\"))\nprint(\"Harga royal kludge    Rp.\", barang5,   \"Diskon 24999\")\ntotal=x1+y1+z1+barang4+barang5\nprint(\"Total Diskon yang anda dapatkan adalah sebesarRp. :\"total)\nprint(\"Total uang yang harus anda bayarkan adalah Rp.:\"total)",
+        "detail": "71210697.71210697.71210697_3",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_4",
+        "description": "71210697.71210697.71210697_4",
+        "peekOfCode": "s = turtle.Screen()\nturtle.Screen().bgcolor(\"cyan\")\nsquare = turtle.Turtle()\nsquare.penup()\nsquare.goto(-150, -100)\nsquare.pendown()\nsquare.pensize(2)\nsquare.speed(\"normal\")\nsquare.color(\"black\", \"orange\")\nsquare.begin_fill()",
+        "detail": "71210697.71210697.71210697_4",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 5,
+        "importPath": "71210697.71210697.71210697_4",
+        "description": "71210697.71210697.71210697_4",
+        "peekOfCode": "square = turtle.Turtle()\nsquare.penup()\nsquare.goto(-150, -100)\nsquare.pendown()\nsquare.pensize(2)\nsquare.speed(\"normal\")\nsquare.color(\"black\", \"orange\")\nsquare.begin_fill()\nfor i in range(3):\n    square.forward(300)",
+        "detail": "71210697.71210697.71210697_4",
+        "documentation": {}
+    },
+    {
+        "label": "inp1",
+        "kind": 5,
+        "importPath": "SOAL.Kunci Percabangan_Azriel",
+        "description": "SOAL.Kunci Percabangan_Azriel",
+        "peekOfCode": "inp1 = int(input(\"Masukkan angka pertama: \"))\ninp2 = int(input(\"Masukkan angka kedua: \"))\nif inp1 % 2 == 0 and inp2 % 2 == 0:\n    hitung = inp1 ** inp2\n    print(\"Hasil yang didapat adalah {}\\n\".format(hitung))\nif inp1 % 2 == 1 and inp2 % 2 == 0:\n    hitung = inp1 / inp2\n    print(\"Hasil yang didapat adalah {}\\n\".format(hitung))\nif inp1 % 2 == 0 and inp2 % 2 == 1:\n    hitung = inp1 + inp2",
+        "detail": "SOAL.Kunci Percabangan_Azriel",
+        "documentation": {}
+    },
+    {
+        "label": "inp2",
+        "kind": 5,
+        "importPath": "SOAL.Kunci Percabangan_Azriel",
+        "description": "SOAL.Kunci Percabangan_Azriel",
+        "peekOfCode": "inp2 = int(input(\"Masukkan angka kedua: \"))\nif inp1 % 2 == 0 and inp2 % 2 == 0:\n    hitung = inp1 ** inp2\n    print(\"Hasil yang didapat adalah {}\\n\".format(hitung))\nif inp1 % 2 == 1 and inp2 % 2 == 0:\n    hitung = inp1 / inp2\n    print(\"Hasil yang didapat adalah {}\\n\".format(hitung))\nif inp1 % 2 == 0 and inp2 % 2 == 1:\n    hitung = inp1 + inp2\n    print(\"Hasil yang didapat adalah {}\\n\".format(hitung))",
+        "detail": "SOAL.Kunci Percabangan_Azriel",
+        "documentation": {}
+    },
+    {
+        "label": "pelanggan",
+        "kind": 5,
+        "importPath": "SOAL.Kunci Perulangan_Azriel",
+        "description": "SOAL.Kunci Perulangan_Azriel",
+        "peekOfCode": "pelanggan = []\nkendaraan = []\nwhile True:\n    print(\"\"\"\\nSilahkan pilih menu dibawah ini:\n1. Menambah data\n2. Menampilkan data\n3. Keluar\"\"\")\n    inp = int(input(\"Silahkan masukan pilihan yang Anda inginkan: \"))\n    if inp == 1:\n        nama = input(\"Masukkan nama pelanggan: \")",
+        "detail": "SOAL.Kunci Perulangan_Azriel",
+        "documentation": {}
+    },
+    {
+        "label": "kendaraan",
+        "kind": 5,
+        "importPath": "SOAL.Kunci Perulangan_Azriel",
+        "description": "SOAL.Kunci Perulangan_Azriel",
+        "peekOfCode": "kendaraan = []\nwhile True:\n    print(\"\"\"\\nSilahkan pilih menu dibawah ini:\n1. Menambah data\n2. Menampilkan data\n3. Keluar\"\"\")\n    inp = int(input(\"Silahkan masukan pilihan yang Anda inginkan: \"))\n    if inp == 1:\n        nama = input(\"Masukkan nama pelanggan: \")\n        motor = input(\"Masukkan nama kendaraan: \")",
+        "detail": "SOAL.Kunci Perulangan_Azriel",
+        "documentation": {}
+    }
+]

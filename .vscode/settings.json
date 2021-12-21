@@ -1,0 +1,5 @@
+{
+	"git.ignoreLimitWarning": true,
+	"python.pythonPath": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+	"python.linting.pylintEnabled": true
+}

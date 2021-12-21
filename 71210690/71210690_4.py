@@ -1,0 +1,55 @@
+import turtle
+
+turtle.Screen()
+t = turtle.Turtle()
+turtle.bgcolor("cyan")
+t.pensize(3)
+# gambarkue
+t.penup()
+t.goto(-110, 50)
+t.pendown()
+t.fillcolor("orange")
+t.begin_fill()
+t.forward(215)
+t.right(90)
+t.forward(123)
+t.right(90)
+t.forward(215)
+t.right(90)
+t.forward(123)
+t.end_fill()
+# gambarkrim
+t.right(180)
+
+
+def krim():
+    t.fillcolor("yellow")
+    t.begin_fill()
+    t.circle(36, 180)
+    t.end_fill()
+
+
+krim()
+t.right(180)
+krim()
+t.right(180)
+krim()
+# gambarlilin
+t.color("red")
+t.penup()
+t.goto(-20, 60)
+t.pensize(6)
+t.pencolor("red")
+t.pendown()
+t.forward(40)
+t.penup()
+t.goto(0, 60)
+t.pendown()
+t.forward(40)
+t.penup()
+t.goto(20, 60)
+t.pendown()
+t.forward(40)
+t.penup()
+t.hideturtle()
+turtle.exitonclick()

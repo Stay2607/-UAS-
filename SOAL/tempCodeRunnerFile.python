@@ -1,0 +1,14 @@
+
+inp = int(input("Masukkan angka: "))
+if inp == 1:
+    print(f"Angka {inp} adalah bilangan Ganjil dan tidak bilangan prima.")
+if inp == 2 or inp == 3 or inp == 5 or inp == 7:
+    if inp %2 == 0:
+        print(f"Angka {inp} adalah bilangan Genap dan bilangan prima.")
+    else:
+        print(f"Angka {inp} adalah bilangan Ganjil dan bilangan prima.")
+elif inp % 2 == 0 or inp % 3 == 0 or inp % 5 == 0 or inp % 7 == 0:
+    if inp%2 == 0:
+        print(f"Angka {inp} adalah bilangan Genap dan tidak bilangan prima.")
+    else:
+        print(f"Angka {inp} adalah bilangan Ganjil dan tidak bilangan prima.")

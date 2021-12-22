@@ -1,9 +1,10 @@
 import turtle
+
 a = turtle.Turtle()
 x = turtle.Screen()
 x.bgcolor("aqua")
 
-#kotak
+# kotak
 a = turtle.Turtle()
 a.penup()
 a.goto(-150, -100)
@@ -27,18 +28,18 @@ a.left(90)
 a.forward(300)
 a.left(90)
 
-#hiasan
+# hiasan
 Circle = 3
 a.color("black", "yellow")
 a.begin_fill()
 a.circle(50, 180)
-while Circle >=2:
+while Circle >= 2:
     a.left(180)
     a.circle(50, 180)
     Circle = Circle - 1
 a.end_fill()
 
-#lilin
+# lilin
 a.penup()
 a.goto(-25, 50)
 a.pendown()

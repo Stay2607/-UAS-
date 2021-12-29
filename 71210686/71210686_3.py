@@ -1,8 +1,6 @@
-print()
 item = input("Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma) : ")
 list = item.split(",")
 totbarang = len(list)
-
 diskon = 0
 tot = 0
 for i in range(totbarang):
@@ -19,9 +17,7 @@ for i in range(totbarang):
         potong = float(float(barang) * 0.25)
         diskon = diskon + potong
         print("Harga" + list[i] + "\t Rp. " + barang + "\t Diskon Rp. ", potong)
-
 jumlah = tot - diskon
-
 print("Total diskon yang anda dapatkan adalah sebesar: Rp. ", diskon)
 print("Total uang yang harus anda bayarkan adalah: Rp. ", jumlah)
 print()

@@ -7,7 +7,7 @@ s.bgcolor("cyan")
 
 t.penup()
 t.goto(-150, -100)
-t.pendown()
+t.pendown
 t.pensize(2)
 t.color("black", "orange")
 t.begin_fill()
@@ -18,7 +18,6 @@ for i in range(3):
     t.left(90)
     t.fd(140)
     t.left(90)
-
 
 t.end_fill()
 t.fd(300)

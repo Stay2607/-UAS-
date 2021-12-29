@@ -15,9 +15,7 @@ def cekPassword(pwd):
         elif HurufBesar == 0:
             return "Password harus mengandung minimal 1 huruf kapital"
         else:
-            return "Password valid! Random Password: {}{}{}".format(
-                str(Angka), str(HurufBesar), str(pwd)
-            )
+            return "Password valid! Random Password: {}{}{}".format(str(Angka), str(HurufBesar), str(pwd))
     else:
         return "Panjang password harus 6-10 karakter"
 

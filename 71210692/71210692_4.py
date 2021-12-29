@@ -4,7 +4,6 @@ s = turtle.Screen()
 t = turtle.Turtle()
 
 s.bgcolor("cyan")
-t.speed(0)
 t.hideturtle()
 
 # base

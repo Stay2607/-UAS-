@@ -1,27 +1,19 @@
-barang = list(
-    input("Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma) : ").split(
-        ","
-    )
-)
+barang = list(input("Masukkan barang apa saja yang ingin dibeli (pisahkan dengan koma) : ").split(","))
 
 print(len(barang))
-
 ht = []
 dt = []
 ur = 0
 
 for i in barang:
-
     print("Berapa harga barang", barang[ur], "?", end="")
     harga = int(input(" "))
-
     if int(harga) >= 250000:
         diskon = harga * (25 / 100)
     elif int(harga) >= 100000:
         diskon = harga * (10 / 100)
     else:
         diskon = 0
-
     ht.append(harga)
     dt.append(diskon)
 
